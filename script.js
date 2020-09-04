@@ -1,11 +1,8 @@
 $(function () {
 
-    $('button').click(function () {
-        $('#my_input').text($(val))
-        alert($('#p1').text());
-
+    $('#push').click(function () {
+        $('p.special').load('demo.txt');
     })
-
 
 
 
